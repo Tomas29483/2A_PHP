@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <p>peter</p>
-    <?php
-        echo "Juraj";
-        print("Štefan")
-    ?>
-</body>
+    <body>
+        <p>peter</p>
+        <?php
+        $premenna = "text";
+        ?>
+    </body>
 </html>
