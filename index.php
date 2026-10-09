@@ -7,5 +7,9 @@
 </head>
 <body>
     <p>peter</p>
+    <?php
+        echo "Juraj";
+        print("Štefan")
+    ?>
 </body>
 </html>
