@@ -4,3 +4,6 @@
 
 ### Premenná
 - definuje sa **$** na začiatku názvu premennej, napr. $premenna = "text"
+
+### Stringy
+- znak "." sa používa na spájanie stringov
