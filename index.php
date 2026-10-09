@@ -9,6 +9,9 @@
         <p>peter</p>
         <?php
         $premenna = "text";
+        $meno = "Tomáš"
+
+        echo "<p>Ahoj, moje meno je " .$meno . "</p>";
         ?>
     </body>
 </html>
