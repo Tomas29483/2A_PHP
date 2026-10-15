@@ -22,8 +22,17 @@
             echo "Výsledok nie je 10";
         }
 
+        echo "</br>";
+
         for($i = 0; $i < 6; $i++) {
-            echo $i;
+            if($i < 5) {
+                echo $i . ",";
+            }else {
+                echo $i;
+            }
+
+            // 1. cyklus: $i = 0
+            // 2. cyklus: $i = 1
         }
         ?>
     </body>
