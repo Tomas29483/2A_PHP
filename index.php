@@ -34,6 +34,29 @@
             // 1. cyklus: $i = 0
             // 2. cyklus: $i = 1
         }
+
+        echo "</br>";
+        /* Vytvorte cyklus, v ktorom vypíšete:
+            - všetky čísla od 0 po náhodné číslo od 0 po 1000
+            pričom
+            - ak náhodné číslo bude párne, tak chceme vypísať všetky párne čísla od 0 po náhodné číslo
+            - ak náhodné číslo bude nepárne, tak chceme vypísať všetky nepárne čísla od 0 po náhodné číslo
+
+            NADSTAVBA resp. bonus
+            - každé piate číslo bude mať náhodnú veľkosť (od 10px do 50px) a farbu
+        */
+        $cislo = rand(0, 1000);
+        echo "Číslo: " . $cislo;
+        echo "</br>";
+        if($cislo % 2 == 0) {
+            for($i = 0; $i <= $cislo; $i += 2) {
+                echo $i . ", ";
+            }
+        } else {
+            for($i = 1; $i <= $cislo; $i += 2) {
+                echo $i . ", ";
+            }
+        }
         ?>
     </body>
 </html>
