@@ -7,3 +7,6 @@
 
 ### Stringy
 - znak "." sa používa na spájanie stringov
+
+### For cyklus
+- podmienky sa oddeľujú **;**, napr. for($i = 0; $i < 6; $i++)
