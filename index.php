@@ -21,6 +21,10 @@
         }else{
             echo "Výsledok nie je 10";
         }
+
+        for($i = 0; $i < 6; $i++) {
+            echo $i;
+        }
         ?>
     </body>
 </html>
