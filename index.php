@@ -52,6 +52,8 @@
         if($cislo % 2 == 0) {
             for($i = 0; $i <= $cislo; $i += 2) {
                 echo $i . ", ";
+            }
+        }
         if($cislo % 2 == 0){
             for($i = 0; $i <= $cislo; $i+=2){
                 $nahodnaVelkost = rand(10,50);
@@ -68,6 +70,7 @@
         } else {
             for($i = 1; $i <= $cislo; $i += 2) {
                 echo $i . ", ";
+            }
         }
         else {
             for($i = 1; $i <= $cislo; $i+=2){
