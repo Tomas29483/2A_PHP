@@ -46,15 +46,27 @@
             - každé piate číslo bude mať náhodnú veľkosť (od 10px do 50px) a farbu
         */
         $cislo = rand(0, 1000);
+        $counter = 1;
         echo "Číslo: " . $cislo;
         echo "</br>";
-        if($cislo % 2 == 0) {
-            for($i = 0; $i <= $cislo; $i += 2) {
-                echo $i . ", ";
+        if($cislo % 2 == 0){
+            for($i = 0; $i <= $cislo; $i+=2){
+                $nahodnaVelkost = rand(10,50);
+                if($counter % 5 == 0){
+                    echo "<span style='font-size: {$nahodnaVelkost}px;'>$i</span>" . ", ";
+                    echo $i . ", ";
+                }else{
+                    echo $i. ", ";
+                }
+                $counter ++;
             }
-        } else {
-            for($i = 1; $i <= $cislo; $i += 2) {
-                echo $i . ", ";
+        }
+        else {
+            for($i = 1; $i <= $cislo; $i+=2){
+                if($counter % 5 == 0){
+                    echo $i . ", ";
+                }
+                $counter ++;
             }
         }
         ?>
