@@ -67,10 +67,6 @@
                 }
                 $counter ++;
             }
-        } else {
-            for($i = 1; $i <= $cislo; $i += 2) {
-                echo $i . ", ";
-            }
         }
         else {
             for($i = 1; $i <= $cislo; $i+=2){
@@ -86,6 +82,7 @@
                 $counter ++;
             }
         }
+        echo "test";
         ?>
     </body>
 </html>
